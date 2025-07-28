@@ -17,4 +17,12 @@ public class RobotMap {
     public static final int RIGHT_BACK_MOTOR = 4;
   }
 
+  public static class mapShooter {
+    public static final int SHOOTER_MOTOR = 10;
+  }
+
+  public static class mapHopper {
+    public static final int HOPPER_MOTOR = 20;
+  }
+
 }
