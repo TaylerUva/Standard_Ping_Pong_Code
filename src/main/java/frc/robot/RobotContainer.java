@@ -27,8 +27,8 @@ public class RobotContainer {
   }
 
   private void configureBindings() {
-    conDriver.btn_A.onTrue(new StartFlywheel(shooter));
-    conDriver.btn_B.onTrue(new StopFlywheel(shooter));
+    conDriver.btn_LeftTrigger.onTrue(new StartFlywheel(shooter));
+    conDriver.btn_LeftBumper.onTrue(new StopFlywheel(shooter));
     conDriver.btn_RightTrigger.whileTrue(new RunHopper(hopper));
   }
 

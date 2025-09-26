@@ -32,7 +32,7 @@ public class DriveManual extends Command {
   // Called every time the scheduler runs while the command is scheduled.
   @Override
   public void execute() {
-    globalDrivetrain.arcadeDrive(globalSpeedSupplier.getAsDouble(), globalRotationSupplier.getAsDouble());
+    globalDrivetrain.arcadeDrive(-globalSpeedSupplier.getAsDouble(), globalRotationSupplier.getAsDouble());
   }
 
   // Called once the command ends or is interrupted.
