@@ -24,7 +24,7 @@ public final class Constants {
   }
 
   public static final class HopperConstants {
-    public static final double FEEDER_SPEED_ON = 1.0;
+    public static final double FEEDER_SPEED_ON = -1.0;
     public static final double FEEDER_SPEED_OFF = 0.0;
   }
 }

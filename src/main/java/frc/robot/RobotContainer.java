@@ -22,7 +22,7 @@ public class RobotContainer {
   private final Hopper hopper = new Hopper();
 
   public RobotContainer() {
-    drivetrain.setDefaultCommand(new DriveManual(drivetrain, conDriver.axis_LeftY, conDriver.axis_RightX));
+    drivetrain.setDefaultCommand(new DriveManual(drivetrain, conDriver.axis_LeftX, conDriver.axis_RightY));
     configureBindings();
   }
 
