@@ -11,10 +11,10 @@ public class RobotMap {
   }
 
   public static class mapDrivetrain {
-    public static final int LEFT_FRONT_MOTOR = 1;
-    public static final int LEFT_BACK_MOTOR = 2;
-    public static final int RIGHT_FRONT_MOTOR = 3;
-    public static final int RIGHT_BACK_MOTOR = 4;
+    public static final int LEFT_FRONT_MOTOR_LEADER_CAN = 1;
+    public static final int LEFT_BACK_MOTOR_FOLLOWER_CAN = 2;
+    public static final int RIGHT_FRONT_MOTOR_LEADER_CAN = 3;
+    public static final int RIGHT_BACK_MOTOR_FOLLOWER_CAN = 4;
   }
 
   public static class mapShooter {

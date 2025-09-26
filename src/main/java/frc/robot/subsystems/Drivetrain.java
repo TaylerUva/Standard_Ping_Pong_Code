@@ -34,10 +34,10 @@ public class Drivetrain extends SubsystemBase {
   /** Creates a new Drivetrain. */
   public Drivetrain() {
     // Initialize motors
-    leftFrontMotor = new WPI_TalonSRX(mapDrivetrain.LEFT_FRONT_MOTOR);
-    leftBackMotor = new WPI_TalonSRX(mapDrivetrain.LEFT_BACK_MOTOR);
-    rightFrontMotor = new WPI_TalonSRX(mapDrivetrain.RIGHT_FRONT_MOTOR);
-    rightBackMotor = new WPI_TalonSRX(mapDrivetrain.RIGHT_BACK_MOTOR);
+    leftFrontMotor = new WPI_TalonSRX(mapDrivetrain.LEFT_FRONT_MOTOR_LEADER_CAN);
+    leftBackMotor = new WPI_TalonSRX(mapDrivetrain.LEFT_BACK_MOTOR_FOLLOWER_CAN);
+    rightFrontMotor = new WPI_TalonSRX(mapDrivetrain.RIGHT_FRONT_MOTOR_LEADER_CAN);
+    rightBackMotor = new WPI_TalonSRX(mapDrivetrain.RIGHT_BACK_MOTOR_FOLLOWER_CAN);
 
     // Set up motor groups
     leftBackMotor.follow(leftFrontMotor);
